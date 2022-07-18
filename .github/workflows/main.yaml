@@ -1,5 +1,5 @@
 name: Test CMSSW on plain docker
-on: [push]
+on: [push, workflow_dispatch]
     
 jobs:
   test_workflow:
