@@ -15,7 +15,7 @@ sed -i "s/$eventline/process.maxEvents = cms.untracked.PSet( input = cms.untrack
 fileline=$(grep "file:myfile.root" $config)
 sed -i "s/$fileline/'root:\/\/eospublic.cern.ch\/\/eos\/opendata\/cms\/Run2015D\/SingleElectron\/MINIAOD\/08Jun2016-v1\/10000\/001A703B-B52E-E611-BA13-0025905A60B6.root'/g" $config
 
-cmsRun $config > demo.out
+cmsRun $config > demo.out 2>&1
 
 cp *.out /mnt/vol/
 echo ls -l /mnt/vol
