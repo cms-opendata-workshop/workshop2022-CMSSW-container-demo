@@ -1,6 +1,4 @@
 #!/bin/sh -l
-# exit on error
-set -e
 sudo chown $USER /mnt/vol
 
 # create and compile DemoAnalyzer using the mkedanlzr script
