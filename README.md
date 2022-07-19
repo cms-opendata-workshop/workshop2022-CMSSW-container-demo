@@ -12,4 +12,4 @@ You can follow the job progress and output by clicking on “DemoAnalyzer test -
 
 Note that every time the workflow runs it takes several minutes to start, as it needs to download the container image. This is certainly not ideal for quick testing, and you would not use this if you have it working on your computer. This is a workaround for those who were not able to run jobs on the container locally.
 
-The workflow is defined in [.github/workflows/main.yaml] and the commands that are passed into the container are in [commands.sh] in branch docker-04 of the repository.
+The workflow is defined in [.github/workflows/main.yaml](/.github/workflows/main.yaml) and the commands that are passed into the container are in [commands.sh](/commands.sh) in branch `docker-04` of the repository.
