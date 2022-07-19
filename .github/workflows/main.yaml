@@ -1,12 +1,9 @@
 name: Test CMSSW on plain docker
-on: [push, workflow_dispatch]
 on:
   push:
     branches:
-      - docker-04
+    - docker-04
   workflow_dispatch:
-    branches:
-      - docker-04
 
 jobs:
   test_workflow:
